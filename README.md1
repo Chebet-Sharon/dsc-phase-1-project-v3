@@ -1,0 +1,76 @@
+# 🛩️ Aviation Safety Risk Analysis
+
+## 📌 Overview
+
+This project analyzes civil aviation accidents from 1962 to 2023 using data from the National Transportation Safety Board (NTSB). The goal is to support our company’s strategic decision to enter the aviation industry by identifying the lowest-risk aircraft types for investment in commercial and private aviation operations.
+
+---
+
+## 💼 Business Understanding
+
+As our company plans to diversify into the aviation sector, we are tasked with providing data-driven insights to guide decision-making around aircraft acquisition. The head of the aviation division needs to understand historical safety risks associated with different aircraft types.
+
+### Key Business Questions
+
+- Which aircraft types have historically had the fewest accidents relative to their usage?
+- Are there any trends in accident causes over time that suggest increasing or decreasing risks?
+- Which geographic regions or flight phases pose the greatest risk?
+
+---
+
+## 📊 Data Understanding and Analysis
+
+### 📂 Data Source
+
+- [Kaggle - Aviation Accident Database Synopses](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+- Maintained by the National Transportation Safety Board (NTSB)
+- Contains accident data from 1962 to 2023, including date, location, aircraft type, and cause
+
+### 📉 Data Preparation
+
+- Cleaned and standardized column names
+- Converted date fields and extracted year, month, and day
+- Imputed missing values using logical estimates (e.g., replacing null weather conditions with "Unknown")
+- Filtered for accidents with complete information on aircraft type, cause, and location
+
+---
+
+## 📈 Visualizations
+
+1. **Top 10 Lowest-Risk Aircraft Types (Bar Chart)**  
+   *Insight:* These aircraft types consistently show the lowest rate of accidents per year
+
+2. **Trend of Fatal vs. Non-Fatal Accidents Over Time (Line Chart)**  
+   *Insight:* Fatal accidents have decreased significantly in recent years due to improved safety protocols
+
+3. **Accident Cause Distribution by Phase of Flight (Stacked Bar Chart)**  
+   *Insight:* Most accidents occur during takeoff and landing, with pilot error as a major contributor
+
+---
+
+## 🧠 Key Findings
+
+- Aircraft such as the **Cessna 172** and **Beechcraft Bonanza** exhibit lower risk based on accident frequency and severity
+- **Pilot error** and **mechanical failure** are the top causes, particularly during critical flight phases
+- **Midwestern and Southern U.S. states** show higher accident density—potentially due to more general aviation traffic
+
+---
+
+## ✅ Conclusion & Recommendations
+
+### Final Recommendations
+
+- **Invest in aircraft types with consistently low accident rates**, such as the Cessna 172 for initial fleet acquisition
+- **Focus training and maintenance on takeoff and landing procedures**, especially to reduce pilot error
+- **Start operations in low-incident regions** like the Pacific Northwest before expanding to higher-risk zones
+
+### Next Steps
+
+- Conduct cost-benefit analysis on target aircraft types
+- Consider supplemental data (e.g., total flight hours) to normalize accident rates
+- Initiate manufacturer partnerships for further safety assessments
+
+---
+
+## 🤝 Contact
+Incase of any questions feel free to contact me at: sharonchebet60@gmail.com
